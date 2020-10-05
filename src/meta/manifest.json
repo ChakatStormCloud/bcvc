@@ -1,8 +1,14 @@
 {
     "manifest_version": 2,
     "name": "Bandcamp Volume Control",
-    "description": "Adds a volume slider to bandcamp.",
-    "version": "0.2.3",
+    "description": "Adds a volume slider to bandcamp and some supported domains.",
+    "version": "0.2.4",
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "{0523c2c8-3fa1-40d2-a668-97e73bc32405}",
+        "strict_min_version": "51.0"
+      }
+    },
     "icons": {
         "128": "icon.png"
     },
