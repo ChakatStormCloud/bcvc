@@ -1,5 +1,9 @@
 # Volume Control for Bandcamp Player
 
+## Source Repo
+
+[bandcamp-volume-control @ GitLab](https://gitlab.com/markoooo/bandcamp-volume-control)
+
 ## Foreword
 
 I got really tired of not being able to control the volume of Bandcamp audio players so I thought about trying to fix that for myself. This extension is primarily made for my own personal use, but I figured if someone else can use it as well, why not try and help.
