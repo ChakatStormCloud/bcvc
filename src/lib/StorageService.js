@@ -23,7 +23,7 @@ StorageService.prototype.restoreVolume = function (callback) {
         var vol = values['bk_bvc_volume'] ? +(values['bk_bvc_volume']) : null;
         if (typeof vol !== 'number' || volumeOutOfBounds(vol)) {
             console.log('-- Volume value not valid. Resetting...');
-            vol = 0.72;
+            vol = 0.05;
         }
         if (typeof callback === 'function') {
             console.log('-- Volume value restored. Resuming...');
