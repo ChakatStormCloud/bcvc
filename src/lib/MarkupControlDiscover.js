@@ -41,7 +41,7 @@ MarkupControlDiscover.prototype.generateMarkup = function () {
     $wrapper = document.createElement('div');
     $wrapper.id = 'bk_wrapper';
     $wrapper.className = 'bk_wrapper bk_small';
-    $wrapper.setAttribute('style', 'position: relative; width: auto; padding: 4px 10px; z-index: 1000');
+    $wrapper.setAttribute('style', 'position: relative; width: auto; padding: 4px 10px; z-index: 100');
 
     $progressBarWrapper = document.createElement('div');
     $progressBarWrapper.className = 'bk_progress_bar_wrapper';

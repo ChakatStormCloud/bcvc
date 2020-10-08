@@ -33,7 +33,7 @@ MarkupControlPage.prototype.generateMarkup = function () {
     $wrapper = document.createElement('div');
     $wrapper.id = 'bk_wrapper';
     $wrapper.className = 'bk_wrapper bk_page';
-    $wrapper.setAttribute('style', 'position: absolute; width: 100%; padding: 6px; bottom: -24px; z-index: 1000;');
+    $wrapper.setAttribute('style', 'position: absolute; width: 100%; padding: 6px; bottom: -24px; z-index: 100;');
 
     $progressBar = document.createElement('div');
     $progressBar.className = 'bk_progress_bar';
