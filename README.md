@@ -8,6 +8,10 @@
 
 I didn't write this, but the original version is no longer updated. I forked and made this so I can add non-bandcamp domains and provide further utility to this extension/addon.
 
+## Download
+
+Available for download on the [Firefox AMO](https://addons.mozilla.org/en-US/firefox/addon/bandcamp-volume-control/) or [Chrome Web Store](https://chrome.google.com/webstore/detail/bandcamp-volume-control/pbbndlbppenfhgnkkcmkcmeodbfkgimf).
+
 ## How this thing works
 
 The extension works by searching for HTML5 audio players on any Bandcamp page (including the embedded players on other websites), hooking into their HTML markup where the buttons (well, Play/Pause button) and progress slider are and adding in a volume slider that can control said player's volume. 
