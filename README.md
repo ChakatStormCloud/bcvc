@@ -1,12 +1,12 @@
-# Volume Control for Bandcamp Player
+# Bandcamp Volume Control
 
 ## Source Repo
 
-[bandcamp-volume-control @ GitLab](https://gitlab.com/markoooo/bandcamp-volume-control)
+[bandcamp-volume-control @ GitLab](https://gitlab.com/markoooo/bandcamp-volume-control) | [bandcamp-volume-control @ GitHub](https://github.com/butterknight/bandcamp-volume-control)
 
 ## Foreword
 
-I got really tired of not being able to control the volume of Bandcamp audio players so I thought about trying to fix that for myself. This extension is primarily made for my own personal use, but I figured if someone else can use it as well, why not try and help.
+I didn't write this, but the original version is no longer updated. I forked and made this so I can add non-bandcamp domains and provide further utility to this extension/addon.
 
 ## How this thing works
 
@@ -18,27 +18,25 @@ The volume is saved every time it's changed and the value should persist across 
 
 ## Important notices
 
-- Currently on Bandcamp's Discover page one slider controls **all** found audio player page elements until I figure out which is which. I don't use that page enough to actually know the consequences of that yet
-- There is an issue with artwork-only player where the volume slider interferes with the playlist that shows up on hover; I'll see about getting that fixed as soon as I can
-- Those very tiny players aren't currently supported at all
+Note: This section may be out of date and require updating.
 
+* Currently on Bandcamp's Discover page one slider controls **all** found audio player page elements until I figure out which is which. I don't use that page enough to actually know the consequences of that yet
+* There is an issue with artwork-only player where the volume slider interferes with the playlist that shows up on hover; I'll see about getting that fixed as soon as I can
+* Those very tiny players aren't currently supported at all
 
 ## Permissions
 
-The extension only requires `storage` permissions (so it can save the volume level), and access to the content of any Bandcamp (`https://*.bandcamp.com/`) page (so it can find the player, markup, etc.).
+The extension requires:
 
-## License
+* The `storage` permissions so it can save the volume level.
+* Access to the content of any Bandcamp (`https://*.bandcamp.com/`) page (so it can find the player, markup, etc.).
+* Access to certain `bandcamp.com` sites with custom domains (such as `music.monstercat.com`).
 
-Copyright 2017
+## How To Build This
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+Building this is kinda of a pain since you have to use an old version of nodejs...
 
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+* Install [node v10.22.1](https://nodejs.org/en/blog/release/v10.22.1/) (any v10.22.x or later *should* probably work)
+* Clone this repo
+* From the repo directory, run `npm run build-prod`
+* Output is in `./build`
