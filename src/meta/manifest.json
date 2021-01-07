@@ -3,12 +3,6 @@
     "name": "Bandcamp Volume Control",
     "description": "Adds a volume slider to bandcamp album/song pages on the official bandcamp domain and some bandcamp sites with custom domains.",
     "version": "0.2.7",
-    "browser_specific_settings": {
-      "gecko": {
-        "id": "{0523c2c8-3fa1-40d2-a668-97e73bc32405}",
-        "strict_min_version": "78.6.1"
-      }
-    },
     "icons": {
         "128": "icon.png"
     },
