@@ -40,7 +40,7 @@ The extension requires:
 
 Building this is kinda of a pain since you have to use an old version of nodejs...
 
-* Install [node v10.22.1](https://nodejs.org/en/blog/release/v10.22.1/) (any v10.22.x or later *should* probably work)
+* Install [node v10.22.1](https://nodejs.org/en/blog/release/v10.22.1/) (any v10.x *should* probably work)
 * Clone this repo
 * From the repo directory, run `npm run build-prod`
 * Output is in `./build`
